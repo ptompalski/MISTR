@@ -13,7 +13,7 @@
 StandAttributes <- function(SI, age, SppId, stocking=1, Origin = "N", PlantedSpp = NA, bhage = age - get_BHA(SppId = SppId)) {
 
   #get species ID for every model
-  S <- species_model_selection[species_model_selection$SppId == SppId,]
+  S <- MISTR_coef$species_model_selection[MISTR_coef$species_model_selection$SppId == SppId,]
   if(nrow(S)==0) {stop("Empty species model selection table")}
 
   # get height
