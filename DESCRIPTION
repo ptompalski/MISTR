@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Piotr", "Tompalski", email = "piotr.tompalski@gmail.com", role = c("aut", "cre"))
 Description: Allows to performe growth and yield analsysis using MIST models in the R enviroment.
 Depends: R (>= 3.5.1)
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports:
