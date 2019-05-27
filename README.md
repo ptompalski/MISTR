@@ -13,7 +13,14 @@ library(MISTR)
 ```
 
 ## Example usage
+
+Selected stand attributes can be calculated using functions that return only one attribute (e.g. calc_BA(), or calc_GTV()), or using the function
+StandAttributes() to calculated all available attributes at once. For example:
+
 ```
+calc_BA(SI = 15, BHage = 40, SppId = "PJ")
+calc_SI(H = 21, age = 67, SppId = "BW")
+
 StandAttributes(SI = 20, age = 30, SppId = "AW")
 StandAttributes(SI = 20, age = 10:50, SppId = "PR")
 
