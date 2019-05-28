@@ -4,25 +4,42 @@
 \alias{StandAttributes}
 \title{Calculate stand attributes}
 \usage{
-StandAttributes(SI, age, SppId, stocking = 1, Origin = "N",
-  PlantedSpp = NA, bhage = age - get_BHA(SppId = SppId))
+StandAttributes(SI, age, species = NA, SFU = NA, stocking = 1,
+  Origin = "N", PlantedSpp = NA, bhage = NA)
 }
 \arguments{
 \item{SI}{site index}
 
 \item{age}{stand total age}
 
-\item{SppId}{Id of a species or forest unit}
+\item{species}{Id of dominant species. May be NA (default) if \code{SFU} is provided.}
 
-\item{stocking}{Stocking.}
+\item{SFU}{Id of Standard Forest Unit (SFU). May be NA (default) if \code{species} is provided. It is recommended to enter both \code{SFU} and \code{species} if attributes are calculated for SFU.}
 
-\item{Origin}{Origin of the stand. Use N for natural, P for plantation.}
+\item{stocking}{Stocking. Default=1.}
+
+\item{Origin}{Origin of the stand. Use "N" for natural, "P" for plantation. Default="N".}
 
 \item{PlantedSpp}{Opional information on planted species required for some plantations.}
+
+\item{bhage}{Optional. Breast-height age. Calculated automatically if not provided based on species and age.}
 }
 \value{
-A data frame containing the calculated stand attributes
+A data frame containing the calculated stand attributes.
 }
 \description{
-A wrapper function to calculate all available stand attributes using other MISTR functions.
+A wrapper function to calculate all available stand attributes using other \code{MISTR} functions.
+}
+\details{
+This function calculates a set of stand attributes including top height (H), basal area (BA), quadratic mean diameter (QMD),
+gross total volume (GTV), gross merchantable volume (GMV), net merchantable volume (NMV), volume-to-basal area ratio (VBAR), and cull.
+
+Attributes may be calculated for:
+\itemize{
+\item dominant species (argument \code{species} is provided, argument \code{SFU} is NA)
+\item standard forest unit (both arguments \code{SFU} and \code{species} are provided (recommended)). If \code{species} is missing, the function will try
+to identify the \code{species} automatically, which is possible for some SFUs. If the \code{species} is successfully identified the function
+will inform the user and return all stand attributes. If the \code{species} cannot be identified automatically, only a limited set of
+attributes will be returned (BA, QMD, N).
+}
 }
