@@ -17,6 +17,7 @@
   \item{cull_coef}{coefficients for the cull model.}
   \item{species_model_selection}{Species codes, full species names, and specifications for which species code should be used
   to calculate each of the stand attributes.}
+  \item{SFU_dominant_species}{Standard forest units with dominant species identified where possible, region id and full name of the unit}
 }}
 \source{
 {MIST technical documentation, MIST coefficient database}

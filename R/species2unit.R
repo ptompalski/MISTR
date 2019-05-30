@@ -14,8 +14,15 @@
 #' @param site_class. Site class (1-4), required for Region 2 and 3.
 #' @param stocking Stocking, required for Region 3. Default = 1
 
-#' @return Standard forest unit
+#' @return Standard forest unit code
 #' @export
+#'
+#' @examples
+#'
+#' species2unit(species_composition = "PR 90 BW 10", region = 2, site_class = 1)
+#'
+#' species2unit(species_composition = "SB  80SW   5LA   5BW   5BF   5", region = 2, site_class = 2)
+
 
 
 species2unit <- function(species_composition, region, ecosite=NA, WG=NA, age=NA, site_class=NA, stocking=1) {

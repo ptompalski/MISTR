@@ -22,7 +22,7 @@ StandAttributes(SI, age, species = NA, SFU = NA, stocking = 1,
 
 \item{PlantedSpp}{Opional information on planted species required for some plantations.}
 
-\item{bhage}{Optional. Breast-height age. Calculated automatically if not provided based on species and age.}
+\item{bhage}{Optional. Breast-height age. If not provided calculated automatically based on species and age.}
 }
 \value{
 A data frame containing the calculated stand attributes.
@@ -42,4 +42,28 @@ to identify the \code{species} automatically, which is possible for some SFUs. I
 will inform the user and return all stand attributes. If the \code{species} cannot be identified automatically, only a limited set of
 attributes will be returned (BA, QMD, N).
 }
+}
+\examples{
+#-------------
+#Calculate attributes for a 30-year-old White Ash stand, with site index of 20:
+StandAttributes(SI = 20, age = 30, species = "AW")
+
+#Calculate attributes for a Red pine stand with site index of 18, for a sequence of ages between 10 and 50:
+StandAttributes(SI = 18, age = 10:50, species = "PR")
+
+#Calculate attributes for a stand classified as PJ1 forest unit, dominated by Jack Pine (PJ), with site index of 18, and age of 85
+StandAttributes(SI = 18, age = 85, species = "PJ", SFU = "PJ1")
+
+#In some cases the species can be omitted.
+StandAttributes(SI = 20, age = 50, SFU = "PJ1")
+
+#In some cases species is required to calculate all attributes. Without species only QMD, BA, and N are calculated.
+StandAttributes(SI = 20, age = 50, SFU = "SF1")
+
+#-------------
+#Calculating stand attributes for planted stands:
+StandAttributes(SI = 20, age = 50, SFU = "PJ1", species = "PJ", Origin = "P")
+
+#For some planted stands PlantedSpp argument is requried
+StandAttributes(SI = 20, age = 50, SFU = "SP1", species = "SW", Origin = "P", PlantedSpp = "SW")
 }
