@@ -1,0 +1,107 @@
+"","OrderId","SppId","STSppId","SiId","HtId","BaId","YcBaId","SuccId","YcId","CullId","VBarId","ScId","VBarSelId","WgCode","Age2BH","Description","YcTemplateIdEA","YcTemplateIdUA","YcProductIdEA","YcProductIdUA"
+"1",1,"AB","AB","AB","AB","MH","AB","MH","AB","AB","AX","MH","AB",20,5,"Black Ash",2,3,3,0
+"2",2,"AW","AW","AW","AW","MH","AW","MH","AW","AW","AX","MH","AW",20,5,"White Ash",2,3,3,0
+"3",3,"AX","AB","AB","AB","MH","AB","MH","AB","AB","AX","MH","AB",NA,5,"Ash, any or mixed",2,3,3,0
+"4",4,"BD","BD","BD","BD","MH","MH","BD","MH","BD","OH","MH","BD",29,5,"Basswood",2,3,3,2
+"5",5,"BE","BE","MH","MH","MH","BE","BE","BE","BE","OH","MH","BE",29,5,"Beech",2,3,3,2
+"6",6,"BF","BF","BF","BF","SB","BF","BF","BF","BF","BF","SB","BF",13,7,"Balsam Fir",1,0,1,0
+"7",82,"BfMx1",NA,NA,NA,NA,"BfMx1",NA,"BfMx1",NA,NA,NA,NA,0,NA,"Balsam Fir Mixedwood FU",1,0,1,0
+"8",83,"BfPur",NA,NA,NA,NA,"BfPur",NA,"BfPur",NA,NA,NA,NA,0,NA,"Balsam Fir Pure FU",1,0,1,0
+"9",7,"BG","BW","BW","BW","BW","BW","BW","BW","BW","BW","BW","BW",NA,5,"Grey birch",1,0,1,0
+"10",8,"BN","OH","MH","MH","MH","MH","MS","MH","OH","OH","MH","OH",NA,5,"Butternut",2,3,3,2
+"11",9,"BW","BW","BW","BW","BW","BW","BW","BW","BW","BW","BW","BW",36,5,"White Birch",1,0,1,0
+"12",49,"BW1",NA,NA,NA,NA,"BW1",NA,"BW1",NA,NA,NA,NA,0,NA,"White Birch FU",1,0,1,0
+"13",84,"BwDee",NA,NA,NA,NA,"BwDee",NA,"BwDee",NA,NA,NA,NA,0,NA,"White Birch Deep FU",1,0,1,0
+"14",85,"BwSha",NA,NA,NA,NA,"BwDee",NA,"BwDee",NA,NA,NA,NA,0,NA,"White Birch Shallow FU",1,0,1,0
+"15",50,"BY1",NA,NA,NA,NA,"BY1",NA,"BY1",NA,NA,NA,NA,0,NA,"Yellow Birch FU",2,0,3,0
+"16",11,"CB","CH","CH","CH","MH","BY","MH","BY","CB","OH","MH","CB",NA,5,"Black cherry",2,3,3,2
+"17",12,"CD","OH","MH","MH","MH","MH","MS","MH","OH","OH","MH","OH",NA,5,"American chestnut",2,3,3,2
+"18",13,"CE","CE","CE","CE","SB","CE","CE","CE","CE","CE","SB","CE",17,11,"Cedar, all",2,0,1,0
+"19",73,"CE1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Cedar FU",2,0,0,0
+"20",14,"CH","CH","CH","CH","MH","BY","MH","BY","CB","OH","MH","CB",29,5,"Cherry",2,3,3,2
+"21",0,"Coeffient Table Name",NA,"yccSI","yccHt","yccScBa","yccBa",NA,"yccGMV,yccGTV,yccDen","yccCull","yccVBar","yccSc","yccVBarSel",NA,NA,NA,0,0,0,0
+"22",86,"ConMx",NA,NA,NA,NA,"ConMx",NA,"ConMx",NA,NA,NA,NA,0,NA,"Conifer Mixedwood FU",1,0,1,0
+"23",15,"CR","OC","SB","SB","SB","SB","SB","SB","SB","SB","SB","SB",NA,5,"eastern red cedar (or redcedar)",1,0,1,0
+"24",16,"CW","CE","CE","CE","SB","CE","CE","CE","CE","CE","SB","CE",NA,11,"eastern white cedar (or northern white-cedar)",1,0,1,0
+"25",17,"EW","EW","EW","EW","MH","MH","MH","MH","EW","OH","MH","EW",29,5,"White Elm",2,3,2,0
+"26",18,"EX","EW","EW","EW","MH","MH","MH","MH","EW","OH","MH","EW",NA,5,"Elm, any or mixed",2,3,2,0
+"27",81,"HDMX1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Hardwood Mixedwood FU",0,0,0,0
+"28",51,"HDSL1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Tolerant hardwood selection FU",1,0,2,0
+"29",52,"HDSL2",NA,NA,NA,NA,"HD2",NA,"HD2",NA,NA,NA,NA,0,NA,"Tolerant hardwood future selection FU",2,0,3,0
+"30",76,"HDUS",NA,NA,NA,NA,"HD2",NA,"HD2",NA,NA,NA,NA,0,NA,"Tolerant Hardwood Uniform Shelterwood FU",2,0,3,0
+"31",19,"HE","HE","HE","HE","MH","HE","HE","HE","HE","HE","MH","HE",16,5,"Hemlock",2,3,3,0
+"32",72,"HE1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Hemlock FU",2,0,0,0
+"33",20,"HI","OH","MH","MH","MH","MH","MS","MH","OH","OH","MH","OH",NA,5,"Hickory, all",2,3,3,2
+"34",88,"HrdMw",NA,NA,NA,NA,"HrdMw",NA,"HrdMw",NA,NA,NA,NA,0,NA,"Hardwood Boreal Mixedwood FU",1,0,1,0
+"35",87,"HrDom",NA,NA,NA,NA,"HrDom",NA,"HrDom",NA,NA,NA,NA,0,NA,"Hardwood FU",1,0,1,0
+"36",21,"IW","IW","MH","MH","MH","MH","IW","MH","ID","OH","MH","ID",29,5,"Iron Wood",2,3,3,0
+"37",22,"LA","LA","LA","LA","SB","LA","LA","LA","LA","LA","SB","HE",18,6,"Tamrack",1,0,1,0
+"38",53,"LC1",NA,NA,NA,NA,"LC1",NA,"LC1",NA,NA,NA,NA,0,NA,"Lowland conifer FU",1,0,1,0
+"39",23,"LO","OH","MH","MH","MH","MH","MS","MH","OH","OH","MH","OH",NA,5,"Locust, black or honey",2,3,3,2
+"40",54,"LWMW",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Lowland mixedwood FU",1,0,1,0
+"41",24,"MH","MH","MH","MH","MH","MH","MH","MH","MH","MH","MH","MH",21,5,"Hard Maple",2,3,3,2
+"42",25,"MR","MR","MH","MH","MH","MS","MS","MS","MS","MS","MH","MS",NA,5,"Soft (red) Maple",2,3,3,2
+"43",26,"MS","MS","MH","MH","MH","MS","MS","MS","MS","MS","MH","MS",24,5,"silver maple",2,3,3,2
+"44",65,"MW1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Mixedwood1 FU",0,0,0,0
+"45",66,"MW2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Mixedwood2 FU",0,0,0,0
+"46",77,"MWD",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Mixedwood Pine FU",0,0,0,0
+"47",78,"MWR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Mixedwood Remainder FU",0,0,0,0
+"48",79,"MWUS",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Mixedwood Uniform Shelterwood FU",0,0,0,0
+"49",27,"MX","MH","MH","MH","MH","MH","MH","MH","MH","MH","MH","MH",NA,5,"Maple, any or mixed",2,3,3,2
+"50",80,"OAK",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Oak FU",0,0,0,0
+"51",32,"OB","OB","MH","MH","MH","OR","OR","OR","OR","OX","MH","OH",28,5,"Black Oak",2,3,3,2
+"52",28,"OC","OC","SB","SB","SB","SB","SB","SB","SB","SB","SB","SB",19,5,"Other conifer",1,0,3,0
+"53",89,"OCLow",NA,NA,NA,NA,"OCLow",NA,"OCLow",NA,NA,NA,NA,0,NA,"Other Conifer Low FU",1,0,1,0
+"54",29,"OH","OH","MH","MH","MH","MH","MS","MH","OH","OH","MH","OH",29,5,"Other Hardwood",1,3,3,0
+"55",30,"QR","QR","OR","OR","MH","OR","OR","OR","OR","OX","MH","OR",28,5,"Red Oak",2,3,3,2
+"56",75,"OR1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Red Oak FU",0,0,0,0
+"57",90,"OthHd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Other hardwwood FU",1,0,1,0
+"58",31,"OW","OW","MH","MH","MH","OR","OR","OR","OR","OX","MH","OH",28,5,"White Oak",2,3,3,2
+"59",33,"OX","QR","OR","OR","MH","OR","OR","OR","OR","OX","MH","OR",NA,5,"Oak, any or mixed",2,3,3,2
+"60",34,"PB","PB","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO",33,3,"Balsam Poplar",1,0,1,0
+"61",35,"PD","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO",NA,3,"Eastern cottonwood",1,0,1,0
+"62",36,"PJ","PJ","PJ","PJ","PJ","PJ","PJ","PJ","PJ","PJ","PJ","HE",7,3,"Jack Pine",1,0,1,0
+"63",55,"PJ1",NA,NA,NA,NA,"PJ1",NA,"PJ1",NA,NA,NA,NA,0,NA,"Jack Pine FU",1,0,1,0
+"64",56,"PJ2",NA,NA,NA,NA,"PJ2",NA,"PJ2",NA,NA,NA,NA,0,NA,"Jack Pine mixedwood FU",1,0,1,0
+"65",91,"PjDee",NA,NA,NA,NA,"PjDee",NA,"PjDee",NA,NA,NA,NA,0,NA,"Jack Pine Deep FU",1,0,1,0
+"66",92,"PjMx1",NA,NA,NA,NA,"PjMx1",NA,"PjMx1",NA,NA,NA,NA,0,NA,"Jack Pine NW Mixedwood FU",1,0,1,0
+"67",93,"PjSha",NA,NA,NA,NA,"PjSha",NA,"PjSha",NA,NA,NA,NA,0,NA,"Jack Pine Shallow FU",1,0,1,0
+"68",37,"PL","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO",NA,3,"Largetooth aspen",1,0,1,0
+"69",38,"PO","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO",33,3,"Poplar, any or mixed",1,0,1,0
+"70",57,"PO1",NA,NA,NA,NA,"PO1",NA,"PO1",NA,NA,NA,NA,0,NA,"Poplar FU",1,0,1,0
+"71",94,"PoDee",NA,NA,NA,NA,"PoDee",NA,"PoDee",NA,NA,NA,NA,0,NA,"Poplar Deep FU",1,0,1,0
+"72",95,"PoSha",NA,NA,NA,NA,"PoDee",NA,"PoDee",NA,NA,NA,NA,0,NA,"Poplar Shallow FU",1,0,1,0
+"73",39,"PR","PR","PR","PR","PR","PR","PR","PR","PR","PR","PR","PR",4,4,"Red Pine",1,0,3,0
+"74",58,"PR1",NA,NA,NA,NA,"PR1",NA,"PR1",NA,NA,NA,NA,0,NA,"Red Pine FU",1,0,3,0
+"75",96,"PrDom",NA,NA,NA,NA,"PrDom",NA,"PrDom",NA,NA,NA,NA,0,NA,"Red Pine FU",1,0,1,0
+"76",59,"PRW",NA,NA,NA,NA,"PRW",NA,"PRW",NA,NA,NA,NA,0,NA,"Red Pine mixedwood FU",2,0,3,0
+"77",97,"PrwMx",NA,NA,NA,NA,"PrwMx",NA,"PrwMx",NA,NA,NA,NA,0,NA,"Red Pine Boreal  mixedwood FU",1,0,1,0
+"78",40,"PS","PS","SB","SB","PJ","PJ","PJ","PJ","PJ","PJ","PJ","SB",8,3,"Scots Pine",1,0,3,0
+"79",41,"PT","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO",NA,3,"Trembling aspen",1,0,1,0
+"80",42,"PW","PW","PW","PW","PW","PW","PW","PW","PW","PW","PW","PW",1,5,"White Pine",2,0,3,0
+"81",60,"PW1",NA,NA,NA,NA,"PW1",NA,"PW1",NA,NA,NA,NA,0,NA,"White Pine Mixedwood FU",2,0,3,0
+"82",98,"PwDom",NA,NA,NA,NA,"PwDom",NA,"PwDom",NA,NA,NA,NA,0,NA,"White Pine Boreals FU",1,0,1,0
+"83",68,"PWOR",NA,NA,NA,NA,"PW1",NA,"PW1",NA,NA,NA,NA,0,NA,"White Pine - Red Oak FU",2,0,3,0
+"84",71,"PWST",NA,NA,NA,NA,"PW1",NA,"PW1",NA,NA,NA,NA,0,NA,"White Pine Seed Tree FU",2,0,3,0
+"85",67,"PWUS4",NA,NA,NA,NA,"PW1",NA,"PW1",NA,NA,NA,NA,0,NA,"White Pine 4-cut shelterwood FU",2,0,3,0
+"86",69,"PWUSC",NA,NA,NA,NA,"PW1",NA,"PW1",NA,NA,NA,NA,0,NA,"White Pine Uniform Shelterwood - Conifer FU",2,0,3,0
+"87",70,"PWUSH",NA,NA,NA,NA,"PW1",NA,"PW1",NA,NA,NA,NA,0,NA,"White Pine Uniform Shelterwood - Hardwood FU",2,0,3,0
+"88",43,"PX","PJ","PJ","PJ","PJ","PJ","PJ","PJ","PJ","PJ","PJ","HE",NA,3,"Pine, any or mixed",1,0,1,0
+"89",44,"SB","SB","SB","SB","SB","SB","SB","SB","SB","SB","SB","SB",11,8,"Black Spruce",1,0,1,0
+"90",61,"SB1",NA,NA,NA,NA,"SB1",NA,"SB1",NA,NA,NA,NA,0,NA,"Lowland Black Spruce FU",1,0,1,0
+"91",99,"SbDee",NA,NA,NA,NA,"SbDee",NA,"SbDee",NA,NA,NA,NA,0,NA,"Black spruce Deep FU",1,0,1,0
+"92",100,"SbLow",NA,NA,NA,NA,"SbLow",NA,"SbLow",NA,NA,NA,NA,0,NA,"Black Spruce Lowland FU",1,0,1,0
+"93",101,"SbMx1",NA,NA,NA,NA,"SbMx1",NA,"SbMx1",NA,NA,NA,NA,0,NA,"Black Spruce Mixedwood FU",1,0,1,0
+"94",102,"SbSha",NA,NA,NA,NA,"SbSha",NA,"SbSha",NA,NA,NA,NA,0,NA,"Black Spruce Shallow FU",1,0,1,0
+"95",62,"SF1",NA,NA,NA,NA,"SF1",NA,"SF1",NA,NA,NA,NA,0,NA,"Spruce Mixedwood FU",1,0,1,0
+"96",74,"SF2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Unknown FU",1,0,0,0
+"97",63,"SP1",NA,NA,NA,NA,"SP1",NA,"SP1",NA,NA,NA,NA,0,NA,"Upland Spruce FU",1,0,0,0
+"98",45,"SW","SW","SW","SW","SB","SW","SW","SW","SW","SW","SB","SW",12,7,"White Spruce",1,0,1,0
+"99",46,"SX","SB","SB","SB","SB","SB","SB","SB","SB","SB","SB","SB",NA,7,"Spruce, any or mixed",1,0,1,0
+"100",64,"TH1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Tolerand Hardwood FU",0,0,0,0
+"101",103,"UplCe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,"Upland Cedar FU",1,0,1,0
+"102",47,"WB","OH","MH","MH","MH","MH","MS","MH","OH","OH","MH","OH",NA,5,"Black walnut",2,3,3,2
+"103",48,"WI","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO","PO",NA,5,"Willow, any or mixed",2,3,3,2
+"104",10,"YB","YB","BY","BY","MH","BY","BY","BY","BY","BY","MH","BY",26,5,"Yellow Birch",2,3,3,2
+"105",10,"BY","YB","BY","BY","MH","BY","BY","BY","BY","BY","MH","BY",26,5,"Yellow Birch",2,3,3,2
+"106",30,"OR","QR","OR","OR","MH","OR","OR","OR","OR","OX","MH","OR",28,5,"Red Oak",2,3,3,2

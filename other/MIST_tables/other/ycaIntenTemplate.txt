@@ -1,0 +1,49 @@
+"","YcTemplateCode","Origin","TemplateCode","AttributeCode","CellType","zzzAttribute","zzzYcTemplateCode"
+"1",1,"N",1,1,2,"SpComp",2
+"2",2,"N",1,2,2,"Stk",3
+"3",3,"N",1,3,2,"Sc",4
+"4",4,"N",1,10,2,"% Net Down for Breakage & Waste",5
+"5",39,"N",1,18,2,"Site Occupancy",1
+"6",5,"N",2,1,2,"SpComp",18
+"7",6,"N",2,2,2,"Stk",19
+"8",7,"N",2,3,2,"Sc",20
+"9",43,"N",2,4,2,"Regen Delay/Acceleration",9
+"10",8,"N",2,5,2,"% AGS",21
+"11",9,"N",2,10,2,"% Net Down for Breakage & Waste",22
+"12",10,"N",2,16,2,"% Sawlogs from AGS",23
+"13",11,"N",2,17,2,"% Sawlogs from UGS",24
+"14",40,"N",2,18,2,"Site Occupancy",0
+"15",12,"N",3,1,2,"SpComp",35
+"16",13,"N",3,3,2,"Sc",36
+"17",44,"N",3,4,2,"Regen Delay/Acceleration",9
+"18",14,"N",3,5,2,"% AGS",37
+"19",15,"N",3,12,2,"Target Residual BA",38
+"20",16,"N",3,13,2,"Expected AGS improvement post marking",39
+"21",17,"N",3,14,2,"Marked BA left Standing",40
+"22",18,"N",3,15,2,"% Damage to AGS ",41
+"23",19,"N",3,16,2,"% Sawlogs from AGS",42
+"24",20,"N",3,17,2,"% Sawlogs from UGS",43
+"25",41,"N",3,18,2,"Site Occupancy",0
+"26",21,"P",1,1,2,"SpComp",7
+"27",22,"P",1,3,2,"Sc",8
+"28",23,"P",1,4,2,"Regen Delay/Acceleration",9
+"29",24,"P",1,6,2,"Planted Species",10
+"30",25,"P",1,7,2,"Planted Stems/Ha",11
+"31",26,"P",1,8,2,"Survival %",12
+"32",27,"P",1,9,4,"Ingrowth stems/ha",13
+"33",28,"P",1,10,2,"% Net Down for Breakage & Waste",15
+"34",29,"P",1,11,2,"Genetic Gain",16
+"35",30,"P",1,18,2,"Site Occupancy",14
+"36",49,"P",1,19,2,"Genetic Gain Age",0
+"37",50,"P",1,20,2,"Genetic Gain Percent",0
+"38",31,"P",2,1,2,"SpComp",26
+"39",32,"P",2,2,2,"Stk",27
+"40",33,"P",2,3,2,"Sc",28
+"41",34,"P",2,5,2,"% AGS",29
+"42",35,"P",2,10,2,"% Net Down for Breakage & Waste",30
+"43",36,"P",2,11,2,"Genetic Gain",31
+"44",37,"P",2,16,2,"% Sawlogs from AGS",32
+"45",38,"P",2,17,2,"% Sawlogs from UGS",33
+"46",42,"P",2,18,2,"Site Occupancy",0
+"47",53,"P",2,19,2,"Genetic Gain Age",0
+"48",54,"P",2,20,2,"Genetic Gain Percent",0

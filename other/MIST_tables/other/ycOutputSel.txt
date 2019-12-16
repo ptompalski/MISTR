@@ -1,0 +1,1 @@
+"","Fu","Intensity","Age","BaGrowth","BaAgs","BaUgs","BaTot","GMVAgs","GMVUgs","GMVTot","NMVAgs","NMVUgs","NMVTot","Pw","Pr","Pj","Sb","Sw","Bf","Ce","Oc","He","Po","Pb","Bw","Mh","Oak","Yb","Oh"

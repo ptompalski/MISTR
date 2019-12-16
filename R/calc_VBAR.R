@@ -9,11 +9,20 @@
 
 calc_VBAR <- function(SI, age,  SppId) {
 
+  #check is species code exists
+  if (!(SppId %in% MISTR_coef$species_model_selection$SppId)) {stop(paste0("Wrong species code: ",SppId))}
+
+  #get species code based on species_model_selection table
+  SppId <- toupper(SppId)
+  current_coefs <- MISTR_coef$species_model_selection[MISTR_coef$species_model_selection$SppId == SppId,]
+  SppID_VBAR <- current_coefs$VBarSelId
+
+
   coeffs = MISTR_coef$vbar_coef
 
-  if (!(SppId %in% coeffs$SppId)) {stop(paste0("No formula for ",SppId))}
+  if (!(SppID_VBAR %in% coeffs$SppId)) {stop(paste0("No formula for ",SppID_VBAR))}
 
-  current_coefs <- coeffs[coeffs$SppId == SppId ,]
+  current_coefs <- coeffs[coeffs$SppId == SppID_VBAR ,]
 
   current_coefs$K1 + current_coefs$K2 / SI * (1 - exp(-current_coefs$K3 * age ^ current_coefs$K4))
 }

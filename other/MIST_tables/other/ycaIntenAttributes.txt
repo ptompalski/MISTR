@@ -1,0 +1,23 @@
+"","AttributeCode","SortId","Attribute","DefaultVal","LowLim","UppLim","Message","FieldName","ColWidth","Decimals"
+"1",1,1,"SpComp",NA,NA,NA,NA,NA,50,0
+"2",2,2,"Stk","0","0","2.5","Stocking must be between 0 and 2.5","STKG",50,2
+"3",3,3,"Sc","0","0","4","Site Class must be between 0 and 4","SC",50,2
+"4",4,4,"Regen Delay/Acceleration","0","-20","20","Regen Delay/Acc must be between -20 and 20","REGEN_DELAY",120,0
+"5",5,5,"% AGS","0","0","100","AGS must be between 0 and 100","AGS_PRCT",80,0
+"6",6,6,"Planted Species",NA,NA,NA,"Only Species Identified in the ycaPlanted Species Table can be used.","PLANTED_SPECIES",80,0
+"7",7,7,"Planted Stems/Ha","2500","1000","4000","Planted Stems must be between 1000 and 4000","PLANTED_STEMS",80,0
+"8",8,8,"Survival %","100","0","100","Survival % must be between 0 and 100","SURVIVAL",50,0
+"9",9,9,"Ingrowth stems/ha","0","0","500","Ingrowth must be between 0 and 500","INGROWTH_STEM",80,0
+"10",10,11,"% Net Down for Breakage & Waste","5","0","40","Net Down must be between 0 and 40","NET_DOWN",120,0
+"11",11,12,"Genetic Gain","0","0","15","Genetic Gain must be between 0 and 15","GENETIC_GAIN",50,0
+"12",12,13,"Target Residual BA","0","0","40","Target Residual BA must be between 0 and 40","TARGET_BA",50,2
+"13",13,14,"Expected AGS improvement post marking","0","0","100","Expected AGS improvement must be between 0 and 100","AGS_IMPROVEMENT",120,0
+"14",14,15,"Marked BA left Standing","0","0","4","Marked BA left Standing must be between 0 and 4","BA_LEFT_STANDING",80,0
+"15",15,16,"% Damage to AGS ","0","0","100","% Damage to AGS must be between 0 and 100","AGS_DAMAGE",80,0
+"16",16,17,"% Sawlogs from AGS","0","0","100","% Sawlogs from AGS must be between 0 and 100","AGS_SAWLOGS",80,0
+"17",17,18,"% Sawlogs from UGS","0","0","100","% Sawlogs from UGS must be between 0 and 100","UGS_SAWLOGS",80,0
+"18",18,10,"Site Occupancy","100","0","100","Site Occupancy must be between 0 and 100","SITE_OCCUPANCY",80,0
+"19",19,19,"Genetic Gain Age","10","1","20","Genetic Gain Age","GENETIC_GAIN_AGE",0,0
+"20",20,20,"Genetic Gain Percent","10","1","100","Genetic Gain Percent","GENETIC_GAIN_PERCENT",0,0
+"21",21,17,"% Pulp from AGS","0","0","100","% Pulp from AGS must be between 0 and 100","AGS_PULP",80,0
+"22",22,18,"% Pulp from UGS","0","0","100","% Pulp from UGS must be between 0 and 100","UGS_PULP",80,0
