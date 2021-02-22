@@ -29,3 +29,16 @@ species_comp_string2df <- function(sp_comp_string) {
 
 
 
+# function to check if data for selected species exists and return the coefficients
+check_Spp_get_coefs <- function(SppId) {
+  
+  SPPID <- toupper(SppId)
+  
+  #check is species code exists
+  if (!(SPPID %in% toupper(MISTR_coef$species_model_selection$SppId))) {stop(paste0("Wrong species code: ",SppId))}
+  
+  #get species code based on species_model_selection table
+  current_coefs <- MISTR_coef$species_model_selection[toupper(MISTR_coef$species_model_selection$SppId) == SPPID,]
+  
+  return(current_coefs)
+}

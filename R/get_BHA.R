@@ -18,12 +18,19 @@
 #   return(current_coefs$Age2BH)
 # }
 get_BHA <- function(SppId) {
-  #check is species code exists
-  if (!(SppId %in% MISTR_coef$species_model_selection$SppId)) {stop(paste0("No formula for ",SppId))}
+  
 
-  # get age2bh directly from species_model_selection
-  current_coefs <- MISTR_coef$species_model_selection[MISTR_coef$species_model_selection$SppId == SppId,]
+  
+  # #check is species code exists
+  # if (!(SppId %in% MISTR_coef$species_model_selection$SppId)) {stop(paste0("No formula for ",SppId))}
+  # 
+  # # get age2bh directly from species_model_selection
+  # SppId <- toupper(SppId)
+  # current_coefs <- MISTR_coef$species_model_selection[MISTR_coef$species_model_selection$SppId == SppId,]
+  current_coefs <- MISTR:::check_Spp_get_coefs(SppId = SppId)
+  
   return(current_coefs$Age2BH)
+  
 }
 
 

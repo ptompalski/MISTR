@@ -11,12 +11,16 @@
 
 calc_GMV <- function(GTV, QMD,  SppId, Origin = "N", PlantedSpp = NA) {
 
-  #check is species code exists
-  if (!(SppId %in% MISTR_coef$species_model_selection$SppId)) {stop(paste0("Wrong species code: ",SppId))}
-
-  #get species code based on species_model_selection table
-  SppId <- toupper(SppId)
-  current_coefs <- MISTR_coef$species_model_selection[MISTR_coef$species_model_selection$SppId == SppId,]
+# 
+#   
+#   #check is species code exists
+#   if (!(SppId %in% MISTR_coef$species_model_selection$SppId)) {stop(paste0("Wrong species code: ",SppId))}
+# 
+#   #get species code based on species_model_selection table
+#   SppId <- toupper(SppId)
+#   current_coefs <- MISTR_coef$species_model_selection[MISTR_coef$species_model_selection$SppId == SppId,]
+  current_coefs <- MISTR:::check_Spp_get_coefs(SppId = SppId)
+  
   SppID_GMV <- current_coefs$YcId
 
   coeffs = MISTR_coef$GMV_coef

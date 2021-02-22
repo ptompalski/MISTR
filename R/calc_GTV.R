@@ -11,31 +11,33 @@
 
 
 calc_GTV <- function(BA, H, SppId, Origin = "N", PlantedSpp = NA) {
-
-  SPPID <- toupper(SppId)
   
-  #check is species code exists
-  if (!(SPPID %in% toupper(MISTR_coef$species_model_selection$SppId))) {stop(paste0("Wrong species code: ",SppId))}
-
-  #get species code based on species_model_selection table
-  # SppId <- toupper(SppId)
-  current_coefs <- MISTR_coef$species_model_selection[toupper(MISTR_coef$species_model_selection$SppId) == SPPID,]
+  # SPPID <- toupper(SppId)
+  # 
+  # #check is species code exists
+  # if (!(SPPID %in% toupper(MISTR_coef$species_model_selection$SppId))) {stop(paste0("Wrong species code: ",SppId))}
+  # 
+  # #get species code based on species_model_selection table
+  # # SppId <- toupper(SppId)
+  # current_coefs <- MISTR_coef$species_model_selection[toupper(MISTR_coef$species_model_selection$SppId) == SPPID,]
+  current_coefs <- MISTR:::check_Spp_get_coefs(SppId = SppId)
+  
   SppID_GTV <- current_coefs$YcId
-
-
+  
+  
   coeffs = MISTR_coef$GTV_coef
-
+  
   if (!(SppID_GTV %in% coeffs$SppId)) {stop(paste0("No formula for ",SppID_GTV))}
-
+  
   current_coefs <- coeffs[coeffs$SppId == SppID_GTV & coeffs$Origin == Origin,]
-
+  
   if (SppID_GTV == "SP1" & Origin == "P" & is.na(PlantedSpp)) {
     stop("Please specify PlantedSpp (SW or SB)")
   }
   if (!is.na(PlantedSpp)) {
     current_coefs <- current_coefs[current_coefs$PlantedSpp == PlantedSpp  ,]
   }
-
+  
   current_coefs$K1 * BA ^ current_coefs$K2 * H ^ current_coefs$K3
-
+  
 }
