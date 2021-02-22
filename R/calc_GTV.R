@@ -12,12 +12,14 @@
 
 calc_GTV <- function(BA, H, SppId, Origin = "N", PlantedSpp = NA) {
 
+  SPPID <- toupper(SppId)
+  
   #check is species code exists
-  if (!(SppId %in% MISTR_coef$species_model_selection$SppId)) {stop(paste0("Wrong species code: ",SppId))}
+  if (!(SPPID %in% toupper(MISTR_coef$species_model_selection$SppId))) {stop(paste0("Wrong species code: ",SppId))}
 
   #get species code based on species_model_selection table
-  SppId <- toupper(SppId)
-  current_coefs <- MISTR_coef$species_model_selection[MISTR_coef$species_model_selection$SppId == SppId,]
+  # SppId <- toupper(SppId)
+  current_coefs <- MISTR_coef$species_model_selection[toupper(MISTR_coef$species_model_selection$SppId) == SPPID,]
   SppID_GTV <- current_coefs$YcId
 
 
